@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🥘 "ReDI to Find"
 
-## Available Scripts
+This was a final project at ReDI School's React Course. The goal of this project is to create a React App that helps Berliners 🇩🇪 connect to local restaurants that are open during the pandemic. Along the way the students are implementing and practicing the concepts that they've been learning during the semester including: routing, local & global state management, hooks, lifecycles & styling.
 
-In the project directory, you can run:
+## 💁🏻‍♀️ Features
 
-### `npm start`
+- Users are able to view the list of all restaurants that are returned from the API
+- Users are able to check restaurants with specific categoreis/tags
+- Users are able to use filters(service type, cuisine, dietary cuisine)
+- Users are able to click a restaurant card in the restaurant listing's page to check the details
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📃 Project Status
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This project is currently completed and ready to be deployed.
 
-### `npm test`
+![mockup image of the project](https://i.imgur.com/4c9jweN.jpg)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ☑️ Installation and Setup Instructions
 
-### `npm run build`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+to install dependencies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+to run the application
 
-### `npm run eject`
+```
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+to visit the App:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+localhost:3000
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ⚒️ Technologies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- React for framework
+- React Router for routing
+- Context API for global state management
+- Styled Component for styling
 
-## Learn More
+## 💡 Reflection
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+It was my first time to try dynamic routing and there was an error that I didn't expect. Later I found out it is something called ['race condition'](https://sebastienlorber.com/handling-api-request-race-conditions-in-react). Even though I somehow managed to fix it within the timeline, I could not understand both the error and the solution and I felt very frustrated. Then I had a feedback session with one of my React teachers, told him about the issue and he gave me another solution, which is actually almost same as the one I fixed with, then suddenly everything made total sense and felt natural. It was one of the powerful 'A-ha!' moments 🌼 and I loved it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Another obstacle was about dropdown buttons. I was aware af the possible styling limitation to use plain html `<select>` tag, so I treid to make 'customed' dropdown buttons, which turned out to be a big mistake. First of all, it took a lot of time, and second of all, it was difficult to integrate with onClickOutside. After I spent the whold day struggling, I found out the easy way: react-dropdown. I deleted all the redundancies right after and started fresh again with the beautiful, smart and easy dropdowns.
 
-### Code Splitting
+I remember the first class of the React course. Even though I tried to be positive, I could not help but feel nervous and insecure. It seemed like I understood only 30-40% of the class and had no idea how to catch up on the curriculum. But I am a persistent person. Yes, I sometimes tend to be anxious but I am no quitter. I joined the mentoring program, did a lot of extra self-learning, reviewed all the classes. Even when all my teammates left the team due to their personal matters at the beginning, I successfully finished the project within the given timeline. I got good feedbacks from the teachers, had a chance to give a presentation at a ReDI School's Big Demo Day. I represented the course, gave a demonstration of the project and shared my thoughts. I am no the most generous person to myself but I want to say I did a great for the past four months and am so proud of myself.
+<br />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+✍🏼 READ MORE HERE: [7 Things I've Learned During the Time at a Coding Bootcamp](https://medium.com/p/7-things-ive-learned-during-the-time-at-a-coding-bootcamp-d402f4504e4a?source=email-5afa1b1ccaf0--writer.postDistributed&sk=7ccc18a87c1049b9088274404eb8288a)
