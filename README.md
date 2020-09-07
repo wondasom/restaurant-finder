@@ -4,10 +4,10 @@ This was a final project at ReDI School's React Course. The goal of this project
 
 ## 💁🏻‍♀️ Features
 
-- Users are able to view the list of all restaurants that are returned from the API
-- Users are able to check restaurants with specific categoreis/tags
-- Users are able to use filters(service type, cuisine, dietary cuisine)
-- Users are able to click a restaurant card in the restaurant listing's page to check the details
+- [x] Users are able to view the list of all restaurants that are returned from the API
+- [x] Users are able to check restaurants with specific categoreis/tags
+- [x] Users are able to use filters(service type, cuisine, dietary cuisine)
+- [x] Users are able to click a restaurant card in the restaurant listing's page to check the details
 
 ## 📃 Project Status
 
