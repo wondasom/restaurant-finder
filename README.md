@@ -1,4 +1,4 @@
-# 🥘 ["ReDI to Find"](reditofind.netlify.app)
+# 🥘 ["ReDI to Find"](https://reditofind.netlify.app/)
 
 This was a final project at ReDI School's React Course. The goal of this project is to create a React App that helps Berliners 🇩🇪 connect to local restaurants that are open during the pandemic. Along the way the students are implementing and practicing the concepts that they've been learning during the semester including: routing, local & global state management, hooks, lifecycles & styling.
 
