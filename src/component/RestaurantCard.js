@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const RestaurantCard = ({ item }) => {
 	return (
@@ -15,7 +15,7 @@ const RestaurantCard = ({ item }) => {
 						<StyledSpan>({item.user_ratings_total})</StyledSpan>
 					</StyledRating>
 					<StyledCategoryContainer>
-						<StyledCuisine style={{ textTransform: "capitalize" }}>
+						<StyledCuisine style={{ textTransform: 'capitalize' }}>
 							{item.cuisine}
 						</StyledCuisine>
 						<StyledDietary>{item.dietaryRestrictions}</StyledDietary>
@@ -23,20 +23,20 @@ const RestaurantCard = ({ item }) => {
 					<StyledDetailList>
 						<StyledListItem>
 							<StyledSpan>
-								Opening Hours{" "}
+								Opening Hours{' '}
 								<StyledSpan>
-									{item.opening_hours.hours.open} {" ~ "}
+									{item.opening_hours.hours.open} {' ~ '}
 									{item.opening_hours.hours.close}
 								</StyledSpan>
 							</StyledSpan>
 						</StyledListItem>
 						<StyledListItem>
 							<StyledSpan>Delievery </StyledSpan>
-							{item.delivery ? "available✨" : "not available"}
+							{item.delivery ? 'available✨' : 'not available'}
 						</StyledListItem>
 						<StyledListItem>
-							<StyledSpan>Pick Up</StyledSpan>{" "}
-							{item.pickup ? "available✨" : "not available"}
+							<StyledSpan>Pick Up</StyledSpan>{' '}
+							{item.pickup ? 'available✨' : 'not available'}
 						</StyledListItem>
 
 						<StyledListItem>{item.formatted_address}</StyledListItem>
@@ -52,11 +52,11 @@ const RestaurantCard = ({ item }) => {
 export default RestaurantCard;
 
 const StyledContainer = styled.div`
+	box-sizing: border-box;
 	border-radius: 10px;
 	width: 340px;
 	height: 520px;
-	margin: 0 auto;
-	margin-bottom: 20px;
+	margin: 0 1em 20px 1em;
 	background-color: #fefefe;
 	-webkit-box-shadow: 24px 20px 42px -46px rgba(0, 0, 0, 0.32);
 	-moz-box-shadow: 24px 20px 42px -46px rgba(0, 0, 0, 0.32);
@@ -78,7 +78,7 @@ const FoodImg = styled.div`
 `;
 
 const StyledName = styled.h2`
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 19px;
 	margin: 0;
 	border-radius: 30px;
@@ -98,14 +98,14 @@ const TextContainer = styled.div`
 `;
 
 const StyledSpan = styled.span`
-	font-family: "Quicksand", sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-weight: 600;
 	margin: 0;
 	padding: 0 5px;
 `;
 
 const StyledRating = styled.p`
-	font-family: "Quicksand", sans-serif;
+	font-family: 'Quicksand', sans-serif;
 
 	font-weight: 400;
 	margin: 0;
@@ -120,24 +120,24 @@ const StyledCategoryContainer = styled.div`
 `;
 
 const StyledCuisine = styled.p`
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border: 1.5px solid #5ab190;
 	border-radius: 40px;
 	margin: 0px;
 	margin-right: 10px;
 	padding: 5px 20px;
 	font-size: 16px;
-	font-weight:600;
+	font-weight: 600;
 `;
 
 const StyledDietary = styled.p`
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border: 1.5px solid orange;
 	border-radius: 40px;
 	margin: 0px;
 	padding: 5px 20px;
 	font-size: 16px;
-	font-weight:600;
+	font-weight: 600;
 `;
 
 const StyledDetailList = styled.ul`
@@ -149,7 +149,7 @@ const StyledDetailList = styled.ul`
 `;
 
 const StyledListItem = styled.li`
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 	padding: 3px 0;
 `;

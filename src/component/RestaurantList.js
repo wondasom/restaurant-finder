@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { DataContext } from '../DataContext';
 import styled from 'styled-components';
+import { SIZE } from './common/size';
+
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
 
@@ -23,8 +25,6 @@ const RestaurantList = () => {
 			}
 		};
 	};
-
-	console.log(selectedType);
 
 	const filterByType = (rest) => {
 		if (selectedType === 'delivery') {
@@ -53,7 +53,6 @@ const RestaurantList = () => {
 		if (selectedDietary !== '') {
 			return rest.dietaryRestrictions === selectedDietary;
 		}
-
 		return true;
 	};
 
@@ -118,8 +117,12 @@ export default RestaurantList;
 const ListContainer = styled.div`
 	margin: 0 auto;
 	width: 1200px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	@media (max-width: 1170px) {
+		width: 100%;
+	}
 `;
 
 const SelectContainer = styled.div`
