@@ -39,10 +39,11 @@ localhost:3000
 
 ## ⚒️ Technologies
 
-- React for framework
-- React Router for routing
-- Context API for global state management
-- Styled Component for styling
+- framework: React.js
+- routing: React Router
+- global state management: Context API
+- data fetching: RESTful API
+- styling: Styled Component
 
 ## 💡 Reflection
 
