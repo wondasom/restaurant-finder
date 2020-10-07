@@ -134,6 +134,11 @@ const FilterContainer = styled.div`
 	display: flex;
 	justify-content: center;
 	margin: 40px 0;
+	@media (max-width: ${SIZE.medium}) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 `;
 
 const optionType = [
