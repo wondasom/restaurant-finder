@@ -34,7 +34,7 @@ npm start
 to visit the App:
 
 ```
-localhost:3000
+https://reditofind.netlify.app/
 ```
 
 ## ⚒️ Technologies
