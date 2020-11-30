@@ -11,7 +11,7 @@ This was a final project at ReDI School's React Course. The goal of this project
 
 ## 📃 Project Status
 
-This project is currently completed and deployed.
+This project is currently deployed via netlify.
 
 ![mockup image of the project](https://i.imgur.com/4c9jweN.jpg)
 
